@@ -1,6 +1,4 @@
-Custom component for lovelace which can be used as a card or an element on a picture-elements card.
-
-![Circle Sensor Examples](circle-sensor.png)
+Lovelace card to be used as a container for other cards which uses a CSS grid for layout.
 
 **Note: When including this file in your `ui-lovelace.yaml` you must use `type: module`**
 
@@ -20,6 +18,8 @@ as `grid-template-columns` and `grid-template-rows`. See [Columns](https://devel
 and [Rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows) for more information.
 
 ### Card Definitions
+| Name | Type | Description | Default
+| ---- | ---- | ----------- | -------
 | type | string | Lovelace card type | **Required**
 | column | object | Card column definition (see below) | None
 | row | object | Card row definition (see below) | None
